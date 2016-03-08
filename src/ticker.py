@@ -120,7 +120,8 @@ class App():
                 logger.info("Info message")
                 logger.warn("Warning message")
                 logger.error("Error message")
-                time.sleep(60)
+                #set the interval of displaying the reminders 
+                sleep(60)
 
 app = App()
 logger = logging.getLogger("DaemonLog")
